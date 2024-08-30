@@ -1,0 +1,26 @@
+.drag-drop {
+  border-style: dashed;
+  border-width: 3px;
+  border-radius: 8px;
+  margin: 2%;
+  padding: 2%;
+  text-align: center;
+  overflow: hidden;
+  }
+
+  .browse-button{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 8px;
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    transition-timing-function: ease-in-out;
+  }
+
+  .browse-button:hover{
+    background-color: hsla(0, 0%, 0%, 0.295);
+    font-size: 105%;
+  }
